@@ -42,6 +42,9 @@ const Navbar = () => {
       <li>
         <Link href="/foodshub">FoodsHub</Link>
       </li>
+      <li>
+        <Link href="/foodsSc">FoodsSC</Link>
+      </li>
     </>
   );
 

@@ -5,9 +5,9 @@ const FoodCard = ({ food }) => {
         <h2 className="card-title">{food.dish_name}</h2>
         <p>{food.description}</p>
         <p>{food.category}</p>
-        <div className="card-actions">
+        {/* <div className="card-actions">
           <button className="btn btn-primary">Buy Now</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
